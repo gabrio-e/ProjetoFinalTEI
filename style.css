@@ -1,15 +1,16 @@
 html, body {
   height: 100%;
   width: 100%;
-  background-color: #171717
+  background-color:#3C3B3D;
+
 }
 
 h1{
-  color: #3872e8
+  color: #BAB559
 }
 
 .cor1{
-  background-color: #3872e8
+  background: #BAB559;
 }
 
 
@@ -31,6 +32,20 @@ h1{
 }
 
 .conteudo: first-child{
+  margin-left: 70px;
+}
+
+
+.links{
+  display: infline-block;
+  width: 100px;
+  margin-right: 10px;
+  border-radius: 3px;
+  overflow: auto;
+  transition: 0.5s;
+}
+
+.links:.conteudo: first-child{
   margin-left: 70px;
 }
 
